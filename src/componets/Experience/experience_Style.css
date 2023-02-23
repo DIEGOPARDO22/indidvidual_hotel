@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Inter";
+  src: url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+}
+
+.section_diego_flex {
+  display: flex;
+  justify-content: flex-end;
+}
+.p1 {
+  width: 268px;
+  height: 32px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133.02%;
+  color: #292929;
+  margin-bottom: 10px; /* Agrega un espacio de 20px entre p1 y p2 */
+}
+
+.p2 {
+  width: 640px;
+  height: 60px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 133.02%;
+  color: #292929;
+  margin-bottom: 30px; /* Agrega un espacio de 30px entre p2 y p3 */
+}
+
+.p3 {
+  width: 453px;
+  height: 56px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175.52%;
+  text-align: center;
+  color: #292929;
+  opacity: 0.4;
+}
+.section_diego .section_diego_flex_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.section_diego_flex_grid div img {
+  height: 100px;
+  width: 150px;
+}
